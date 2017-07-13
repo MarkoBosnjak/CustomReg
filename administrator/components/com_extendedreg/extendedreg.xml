@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>ExtendedReg</name>
+	<version>2.11</version>
+	<copyright>(C) 2007 - 2014 jVitals Digital Technologies Inc. All rights reserved.</copyright>
+	<creationDate>29 March 2014</creationDate>
+	<author>jVitals Team</author>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<description>This component gives you more options to controll user registration</description>
+	<scriptfile>install30.php</scriptfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.extendedreg.sql</file>
+			<file driver="mysql">install.extendedreg.sql</file>
+		</sql>
+	</install>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>extendedreg.php</filename>
+		<filename>router.php</filename>
+		<folder>views</folder>
+		<folder>controllers</folder>
+		<folder>assets</folder>
+	</files>
+	<administration>
+		<menu img="components/com_extendedreg/assets/images/16x16/erlogo.png" link="option=com_extendedreg&amp;task=default.dashboard">COM_EXTENDEDREG</menu>
+		<submenu>
+			<menu img="components/com_extendedreg/assets/images/16x16/dashboard.png" link="option=com_extendedreg&amp;task=default.dashboard">COM_EXTENDEDREG_MENU_DASHBOARD</menu>
+			<menu img="components/com_extendedreg/assets/images/16x16/erusers.png" link="option=com_extendedreg&amp;task=users.manage">COM_EXTENDEDREG_MENU_USERMANAGER</menu>
+			<menu img="components/com_extendedreg/assets/images/16x16/fields.png" link="option=com_extendedreg&amp;task=forms.fields">COM_EXTENDEDREG_MENU_CUSTOMFIELDS</menu>
+			<menu img="components/com_extendedreg/assets/images/16x16/forms.png" link="option=com_extendedreg&amp;task=forms.browse">COM_EXTENDEDREG_MENU_FORMS</menu>
+			<menu img="components/com_extendedreg/assets/images/16x16/erstats.png" link="option=com_extendedreg&amp;task=default.stats">COM_EXTENDEDREG_MENU_STATS</menu>
+			<menu img="components/com_extendedreg/assets/images/16x16/addons.png" link="option=com_extendedreg&amp;task=addons.browse">COM_EXTENDEDREG_MENU_ADDONS</menu>
+			<menu img="components/com_extendedreg/assets/images/16x16/ersettings.png" link="option=com_extendedreg&amp;task=default.settings">COM_EXTENDEDREG_MENU_SETTINGS</menu>
+			<menu img="components/com_extendedreg/assets/images/16x16/about.png" link="option=com_extendedreg&amp;task=default.about">COM_EXTENDEDREG_MENU_ABOUT</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>htaccess.txt</filename>
+			<filename>changelog.xml</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>extendedreg.php</filename>
+			<filename>toolbar.extendedreg.php</filename>
+			<filename>install.extendedreg.sql</filename>
+			<filename>uninstall.extendedreg.sql</filename>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>assets</folder>
+			<folder>uninstall_info</folder>
+			<folder>language</folder>
+			<folder>install</folder>
+			<folder>hooks</folder>
+		</files>
+	</administration>
+</extension>

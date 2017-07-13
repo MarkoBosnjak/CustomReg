@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>jVitals Library Loader</name>
+	<version>1.0</version>
+	<copyright>(C) All rights reserved. 2007 - 2013 jVitals.com</copyright>
+	<creationDate>September 2013</creationDate>
+	<author>jVitals Team</author>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<description>This plugin will help Joomla to load jVitals Library</description>
+	<files>
+		<filename plugin="jvitalsloader">index.html</filename>
+		<filename plugin="jvitalsloader">jvitalsloader.php</filename>
+	</files>
+</extension>

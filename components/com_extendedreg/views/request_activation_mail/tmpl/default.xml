@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EXTENDEDREG_VIEW_REQUEST_ACTIVATION_MAIL">
+		<message>COM_EXTENDEDREG_VIEW_REQUEST_ACTIVATION_MAIL_DESC</message>
+	</layout>
+	<state>
+		<name>COM_EXTENDEDREG_VIEW_REQUEST_ACTIVATION_MAIL</name>
+		<description>COM_EXTENDEDREG_VIEW_REQUEST_ACTIVATION_MAIL_DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

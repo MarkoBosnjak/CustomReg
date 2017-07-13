@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog component="ExtendedReg">
+  <version number="2.11">
+    <date>2014-03-29</date>
+    <description><![CDATA[ Maintenance release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fix possible issue with ER Authentication and Cookie login ]]></item>
+      <item type="bugfix"><![CDATA[ Fix login error when Remember Me is checked on Joomla! 3.2.3 ]]></item>
+      <item type="bugfix"><![CDATA[ Fix issue with saving html with textare or rich text editor custom fields ]]></item>
+      <item type="bugfix"><![CDATA[ ER Upload addon - fix issue with Ajax upload related to recent Joomla 3.2 changes ]]></item>
+      <item type="bugfix"><![CDATA[ Agora Pro integration: fix issue where ER custom fields included as Custom Field group in the form were not saving in Agora Pro profile ]]></item>
+      <item type="bugfix"><![CDATA[ Fix issue with simple captcha not loading on first page load in some cases ]]></item>
+      <item type="bugfix"><![CDATA[ Fix issue with regular expressions validation ]]></item>
+      <item type="bugfix"><![CDATA[ Fix issue with export of Statistics not working ]]></item>
+      <item type="bugfix"><![CDATA[ Fix the Save button incorrect redirect after saving user, custom field or custom field group ]]></item>
+      <item type="bugfix"><![CDATA[ Fix issue with ER Admin module related to recent Joomla 3.2 changes ]]></item>
+      <item type="bugfix"><![CDATA[ ExtendedPages - Fix issue with pagination when there is no form and there is a search field ]]></item>
+      <item type="upgrade"><![CDATA[ ExtendedPages - add a setting to display header/footer and back button on empty results ]]></item>
+      <item type="upgrade"><![CDATA[ Removed all translation files different then en-GB. Translations are now handled by Transifex ]]></item>
+    </list>
+  </version>
+  <version number="2.10">
+    <date>2014-02-05</date>
+    <description><![CDATA[ Maintenance release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fix several issues in "ExtendedReg - User" plugin and "ExtendedReg Authentication" plugin related to recent changes in Joomla 3.2.0 and 3.2.1. Forward compatibility with 3.2.2 and 2.5.18 ]]></item>
+      <item type="bugfix"><![CDATA[ Fix issue with Terminate Account feature ]]></item>
+      <item type="bugfix"><![CDATA[ Fix saving html content on Joomla 2.5 ]]></item>
+      <item type="bugfix"><![CDATA[ Multiple fixes in the integraton addons ]]></item>
+      <item type="bugfix"><![CDATA[ Upload addon - fix issue with width and height of upload images ]]></item>
+      <item type="bugfix"><![CDATA[ Fix several conflicts with the old legacy plugin ]]></item>
+      <item type="upgrade"><![CDATA[ Upload addon - autodetect file type (image or other)and display accordingly ]]></item>
+      <item type="upgrade"><![CDATA[ Upload addon - keep filename when downloading an image ]]></item>
+    </list>
+  </version>
+  <version number="2.09">
+    <date>2013-12-18</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed bug when saving default group for new users ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug when saving password strength settings ]]></item>
+    </list>
+  </version>
+  <version number="2.08">
+    <date>2013-12-12</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed issue with reset password token ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with advanced export addon ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with GroupByField plugin ]]></item>
+    </list>
+  </version>
+  <version number="2.07">
+    <date>2013-11-27</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Added support for Two Factor Authentication ]]></item>
+      <item type="new"><![CDATA[ Added option to send notifications when someone access the admin panel ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed several small bugs ]]></item>
+    </list>
+  </version>
+  <version number="2.06">
+    <date>2013-09-11</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Added ability to force users to change password in given time period ]]></item>
+      <item type="bugfix"><![CDATA[ Removed some php notices when error reporting is on ]]></item>
+      <item type="upgrade"><![CDATA[ Added ability to work with IPv6 ]]></item>
+    </list>
+  </version>
+  <version number="2.05">
+    <date>2013-07-30</date>
+    <description><![CDATA[ New features release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Password generator popup added ]]></item>
+      <item type="new"><![CDATA[ Administrator panel protection with secret hash added ]]></item>
+      <item type="new"><![CDATA[ Login attempts protection for administrator panel added ]]></item>
+      <item type="new"><![CDATA[ Block by IP address for login attempts protection added ]]></item>
+    </list>
+  </version>
+  <version number="2.04">
+    <date>2013-07-10</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed issue with language strings used in custom fields in emails ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issue with user information popup in Joomla! 3.x ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issue with special symbols in dropdown options ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed other small issues reported by users ]]></item>
+      <item type="upgrade"><![CDATA[ Changed custom regexp validation ]]></item>
+    </list>
+  </version>
+  <version number="2.03">
+    <date>2013-04-04</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Form layout options to arrange labels and fields ]]></item>
+      <item type="new"><![CDATA[ Settings for width of the form and fields ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issue with form selecting when user create menu item ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed some problems with Joomla 3.0.x compatibility ]]></item>
+      <item type="upgrade"><![CDATA[ When user use "Forgot Password" his new password will be checked for strength ]]></item>
+      <item type="upgrade"><![CDATA[ Fixed all old themes and added several new ]]></item>
+    </list>
+  </version>
+  <version number="2.02">
+    <date>2013-02-07</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed minor bugs ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed problem with spaces when using ACL group by field plugin ]]></item>
+      <item type="locale"><![CDATA[ Fixed errors in translations and added new languages ]]></item>
+    </list>
+  </version>
+  <version number="2.01">
+    <date>2013-01-10</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Ability to disable IP tracking ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug in information field ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed problem with not editable mode ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug in admin module ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed problem with style of box module ]]></item>
+    </list>
+  </version>
+  <version number="2.0">
+    <date>2012-12-03</date>
+    <description><![CDATA[ Major release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Joomla! 3.0 compatible ]]></item>
+      <item type="new"><![CDATA[ Option to enable/disable css files ]]></item>
+      <item type="new"><![CDATA[ Added easy way to connect article as T&C ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with maximum failed login attempts ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug when using only numbers as username ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with directories when installing at windows based OS ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with backslashes in emails ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with Select All checkbox in User Manager ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with edit Custom SQL button ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues with Confirm Field ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues with AJAX requests ]]></item>
+      <item type="upgrade"><![CDATA[ Changed way to handle javascript validation ]]></item>
+    </list>
+  </version>
+  <version number="1.0.082">
+    <date>2012-08-19</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed some minor bugs ]]></item>
+    </list>
+  </version>
+  <version number="1.0.081">
+    <date>2012-07-09</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="upgrade"><![CDATA[ New security options ]]></item>
+      <item type="upgrade"><![CDATA[ Added new options for email content ]]></item>
+    </list>
+  </version>
+  <version number="1.0.08">
+    <date>2012-06-25</date>
+    <description><![CDATA[ Major release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ HTML and/or text can be injected before and after forms ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues with date and user timezones ]]></item>
+      <item type="bugfix"><![CDATA[ We now consider the language when we try to detect Itemid ]]></item>
+      <item type="bugfix"><![CDATA[ Missing check about password and confirm password is added ]]></item>
+      <item type="bugfix"><![CDATA[ Ajax checks for username and email are recreated ]]></item>
+      <item type="locale"><![CDATA[ Added french translation ]]></item>
+      <item type="upgrade"><![CDATA[ The content of information area field can now be language constant ]]></item>
+      <item type="upgrade"><![CDATA[ The content of emails can now be language constant ]]></item>
+    </list>
+  </version>
+  <version number="1.0.072">
+    <date>2012-05-14</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed bug with missing file on install ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with unique field validation in backend ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed some small issues ]]></item>
+      <item type="ui"><![CDATA[ Added notice on install with instructions what to do if you see "Error Building admin menus" ]]></item>
+    </list>
+  </version>
+  <version number="1.0.071">
+    <date>2012-05-07</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Ability to sort by custom fields in user manager ]]></item>
+      <item type="new"><![CDATA[ Ability to add admin notes for every user (visible only in backend) ]]></item>
+      <item type="new"><![CDATA[ Ability to include user ID in the email messages ]]></item>
+      <item type="new"><![CDATA[ Ability to generate random username and password ]]></item>
+      <item type="new"><![CDATA[ Ability to add custom field that will display two text fields which have to be with equal value to continue the registration process ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with unchecking checkboxes in profile edit and admin panel ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with installing language files in Joomla 1.5.x ]]></item>
+      <item type="upgrade"><![CDATA[ Newest version of jQuery library ]]></item>
+      <item type="ui"><![CDATA[ Better speed in user manager ]]></item>
+    </list>
+  </version>
+  <version number="1.0.07">
+    <date>2012-04-16</date>
+    <description><![CDATA[ Major release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Allow admins to limit the maximum failed login attempts for a given account for a given time and block the account after this. ]]></item>
+      <item type="new"><![CDATA[ Feature allowing users (except Super Admins) to delete their account. ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed encoding issue when uploading files containing field options. ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed custom field options from SQL string feature. ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issue with uninstalling add-ons in Joomla versions after 1.5 ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed 'Reset password' and 'Remind username' to work correctly with the 'Email for username' setting ]]></item>
+      <item type="upgrade"><![CDATA[ Added the possibility to include users Joomla General Settings in ExtendedReg forms. ]]></item>
+      <item type="upgrade"><![CDATA[ Added support for Joomla Native ReCaptcha ]]></item>
+    </list>
+  </version>
+  <version number="1.0.069">
+    <date>2012-03-05</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed redirection issues ]]></item>
+    </list>
+  </version>
+  <version number="1.0.068">
+    <date>2012-02-20</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed bug with sorting in admin panel of Joomla 2.5.x ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with user approve link ]]></item>
+    </list>
+  </version>
+  <version number="1.0.067">
+    <date>2012-02-14</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Added ability to use admin approval link in emails to admin ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bugs with custom validations ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with editable fields ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with empty groups of custom fields ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues with filtering in backend ]]></item>
+      <item type="upgrade"><![CDATA[ Users now cannot delete custom field if it is used in form ]]></item>
+      <item type="ui"><![CDATA[ Toolbar buttons made similar to native joomla ]]></item>
+    </list>
+  </version>
+  <version number="1.0.066">
+    <date>2011-12-07</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed bug when creating new user in backend ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with username and user profile changes ]]></item>
+      <item type="bugfix"><![CDATA[ Pagination in backend now saves last page you visited after redirects ]]></item>
+    </list>
+  </version>
+  <version number="1.0.065">
+    <date>2011-11-21</date>
+    <description><![CDATA[ Major release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Added ability to remove tables on uninstall ]]></item>
+      <item type="new"><![CDATA[ Added notice to remove the plugins on uninstall ]]></item>
+      <item type="new"><![CDATA[ Custom fields can be set as not editable in profile ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed Itemid issues ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed email validation for .info domains ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed submit issue when javascript is disabled ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed "Invalid Form" issue when the form contain non required checkbox fields ]]></item>
+    </list>
+  </version>
+  <version number="1.0.064">
+    <date>2011-11-05</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+  </version>
+  <version number="1.0.063">
+    <date>2011-10-01</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed bugs in settings page ]]></item>
+    </list>
+  </version>
+  <version number="1.0.062">
+    <date>2011-09-28</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed bugs with information field type ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bugs in settings page ]]></item>
+    </list>
+  </version>
+  <version number="1.0.061">
+    <date>2011-09-12</date>
+    <description><![CDATA[ Minor release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Added support for NicEdit rich text editor ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed toggle buttons for setting custom fields required/not required ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with multistep forms ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with information field type ]]></item>
+      <item type="upgrade"><![CDATA[ Updated field types. Support for multilanguage sites is added ]]></item>
+    </list>
+  </version>
+  <version number="1.0.06">
+    <date>2011-08-22</date>
+    <description><![CDATA[ Major release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ Custom fields can be selected to display in user manager list ]]></item>
+      <item type="new"><![CDATA[ User groups for new users can be selected. This setting is per form. ]]></item>
+      <item type="new"><![CDATA[ Uninstall button is added for addons ]]></item>
+      <item type="new"><![CDATA[ New type of statistics is added where you can see how many of the users are related to one IP address ]]></item>
+      <item type="new"><![CDATA[ Administrators can blacklist IP addresses for registration and login to the site ]]></item>
+      <item type="new"><![CDATA[ ExtendedReg now detects most of the public proxy servers and a setting exist that can be set to refuse access to users with proxy ]]></item>
+      <item type="bugfix"><![CDATA[ Security issues fixed ]]></item>
+      <item type="bugfix"><![CDATA[ HTML is now saved in terms and conditions ]]></item>
+      <item type="bugfix"><![CDATA[ User activation link does not get affected by bad html from the editor anymore ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issue with timezones of users ]]></item>
+      <item type="ui"><![CDATA[ In statistics search now is using one field which searches in all columns ]]></item>
+      <item type="ui"><![CDATA[ Changed form builder interface ]]></item>
+    </list>
+  </version>
+  <version number="1.0.053">
+    <date>2011-07-15</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Emails are sent to approved users ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed access rights for backend ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed bug with validation of multicheckbox ]]></item>
+      <item type="upgrade"><![CDATA[ The component is now using newest versions of jQuery and jQueryUI libraries ]]></item>
+    </list>
+  </version>
+  <version number="1.0.052">
+    <date>2011-07-11</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed bug when creating new users in admin ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues with redirects when sef is enabled ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues javascript when password strength is disabled ]]></item>
+      <item type="locale"><![CDATA[ Added frontend translations ]]></item>
+    </list>
+  </version>
+  <version number="1.0.051">
+    <date>2011-07-04</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed issues with filterinput.php in Joomla 1.6 ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues with redirects ]]></item>
+      <item type="bugfix"><![CDATA[ Fixed issues after profile editing ]]></item>
+      <item type="ui"><![CDATA[ Added ability to reorder custom fields ]]></item>
+    </list>
+  </version>
+  <version number="1.0.05">
+    <date>2011-06-23</date>
+    <description><![CDATA[ Major release ]]></description>
+    <list>
+      <item type="new"><![CDATA[ !Joomla 1.6 compability ]]></item>
+      <item type="new"><![CDATA[ 100% Password strength control settings ]]></item>
+      <item type="new"><![CDATA[ Full user list export in .csv format ]]></item>
+      <item type="new"><![CDATA[ Multiple options for redirects during and after registration ]]></item>
+      <item type="new"><![CDATA[ Abilitiy to install addons in admin panel, directly to ExtendedReg ]]></item>
+      <item type="new"><![CDATA[ Ability to substiture core Joomla registration fields with newly created custom fields in ExtendedReg ]]></item>
+      <item type="new"><![CDATA[ Mathguard CAPTCHA options ]]></item>
+      <item type="bugfix"><![CDATA[ IE9 compatibility during registration ]]></item>
+      <item type="bugfix"><![CDATA[ Option to select form fields jumping around after first add ]]></item>
+      <item type="bugfix"><![CDATA[ Custom table names can no longer be changed once they are created. This prevents loss of data when table is renamed ]]></item>
+      <item type="upgrade"><![CDATA[ Rich text format custom fields option ]]></item>
+      <item type="ui"><![CDATA[ Added ability to include groups of fields inside forms ]]></item>
+      <item type="ui"><![CDATA[ Profile editing now display only the fields user entered at registration ]]></item>
+      <item type="ui"><![CDATA[ Cleaner Statistics page layout ]]></item>
+      <item type="ui"><![CDATA[ JavaScript settings for experienced users to prevent conflict with other systems ]]></item>
+    </list>
+  </version>
+  <version number="1.0.044">
+    <date>2011-03-13</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed reported bugs ]]></item>
+    </list>
+  </version>
+  <version number="1.0.043">
+    <date>2011-03-02</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed reported bugs ]]></item>
+    </list>
+  </version>
+  <version number="1.0.042">
+    <date>2011-01-21</date>
+    <description><![CDATA[ Bugfix release ]]></description>
+    <list>
+      <item type="bugfix"><![CDATA[ Fixed reported bugs ]]></item>
+    </list>
+  </version>
+</changelog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_extendedreg">
+	<section name="component">
+		<action name="core.admin" title="COM_EXTENDEDREG_ACL_CORE_ADMIN" description="COM_EXTENDEDREG_ACL_CORE_ADMIN_HELP" />
+		<action name="core.manage" title="COM_EXTENDEDREG_ACL_CORE_MANAGE" description="COM_EXTENDEDREG_ACL_CORE_MANAGE_HELP" />
+		<action name="addons.manage" title="COM_EXTENDEDREG_ACL_ADDONS_MANAGE" description="COM_EXTENDEDREG_ACL_ADDONS_MANAGE_HELP" />
+		<action name="users.manage" title="COM_EXTENDEDREG_ACL_USERS_MANAGE" description="COM_EXTENDEDREG_ACL_USERS_MANAGE_HELP" />
+		<action name="fields.groups" title="COM_EXTENDEDREG_ACL_FIELDGROUPS_MANAGE" description="COM_EXTENDEDREG_ACL_FIELDGROUPS_MANAGE_HELP" />
+		<action name="fields.manage" title="COM_EXTENDEDREG_ACL_FIELDS_MANAGE" description="COM_EXTENDEDREG_ACL_FIELDS_MANAGE_HELP" />
+		<action name="forms.manage" title="COM_EXTENDEDREG_ACL_FORMS_MANAGE" description="COM_EXTENDEDREG_ACL_FORMS_MANAGE_HELP" />
+		<action name="stats.manage" title="COM_EXTENDEDREG_ACL_STATS_MANAGE" description="COM_EXTENDEDREG_ACL_STATS_MANAGE_HELP" />
+	</section>
+</access>

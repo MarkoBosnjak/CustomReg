@@ -1,0 +1,213 @@
+.enable-bootstrap-style .bootstrap-datepicker {
+  position: relative;
+}
+.enable-bootstrap-style .bootstrap-datepicker .add-on {
+  cursor: pointer;
+}
+.enable-bootstrap-style .bootstrap-datepicker .add-on i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget {
+	font-size: 14px;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget.dropdown-menu {
+  padding: 2px 3px 2px 2px;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget.dropdown-menu.open {
+  display: inline-block;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget.dropdown-menu:before {
+  border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  display: inline-block;
+  left: 9px;
+  position: absolute;
+  top: -7px;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget.dropdown-menu:after {
+  border-bottom: 6px solid #FFFFFF;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  content: "";
+  display: inline-block;
+  left: 10px;
+  position: absolute;
+  top: -6px;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget .months {
+	color: #333;
+	padding: 0.3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget .prev-month,
+.enable-bootstrap-style .bootstrap-datepicker-widget .next-month {
+	padding: 0;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget .prev-month {
+	float: left;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget .next-month {
+	float: right;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget .current-month {
+	margin: 0 auto;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget .months .prev-month,
+.enable-bootstrap-style .bootstrap-datepicker-widget .months .next-month {
+	text-decoration: none;
+	padding: 0 0.5em;
+	cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+   width: 20px;
+  height: 20px;
+}
+
+.enable-bootstrap-style .bootstrap-datepicker-widget .months .prev-month:hover,
+.enable-bootstrap-style .bootstrap-datepicker-widget .months .next-month:hover {
+	background-color: #eeeeee;
+}
+
+/*
+=======================================
+*/
+
+.enable-bootstrap-style .bootstrap-datepicker-widget table {
+  margin: 0;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table td,
+.enable-bootstrap-style .bootstrap-datepicker-widget table th {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  white-space: nowrap;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.day:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+
+/*
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.today,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.today:hover {
+  background-color: #fde19a;
+  background-image: -moz-linear-gradient(top, #fdd49a, #fdf59a);
+  background-image: -ms-linear-gradient(top, #fdd49a, #fdf59a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdd49a), to(#fdf59a));
+  background-image: -webkit-linear-gradient(top, #fdd49a, #fdf59a);
+  background-image: -o-linear-gradient(top, #fdd49a, #fdf59a);
+  background-image: linear-gradient(top, #fdd49a, #fdf59a);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd49a', endColorstr='#fdf59a', GradientType=0);
+  border-color: #fdf59a #fdf59a #fbed50;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #000 !important;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.today:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.today:hover:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.today.active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.today:hover.active {
+  background-color: #fbf069 \9;
+}
+*/
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:hover {
+  background-color: #9e9e9e;
+  background-image: -moz-linear-gradient(top, #b3b3b3, #808080);
+  background-image: -ms-linear-gradient(top, #b3b3b3, #808080);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b3b3b3), to(#808080));
+  background-image: -webkit-linear-gradient(top, #b3b3b3, #808080);
+  background-image: -o-linear-gradient(top, #b3b3b3, #808080);
+  background-image: linear-gradient(top, #b3b3b3, #808080);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3b3b3', endColorstr='#808080', GradientType=0);
+  border-color: #808080 #808080 #595959;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:hover,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:hover:hover,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:hover:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected.active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:hover.active {
+  background-color: #808080;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:hover:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected.active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.selected:hover.active {
+  background-color: #666666 \9;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:hover {
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -ms-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(top, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:hover,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:hover:hover,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:hover:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active.active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:hover.active {
+  background-color: #0044cc;
+}
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:hover:active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active.active,
+.enable-bootstrap-style .bootstrap-datepicker-widget table tr td.active:hover.active {
+  background-color: #003399 \9;
+}
+
+/*
+=======================================
+*/
+
+@media (min-width: 767px) {
+  .enable-bootstrap-style .bootstrap-datepicker-widget.modal {
+    width: 200px;
+    margin-left: -100px;
+  }
+}
+@media (max-width: 767px) {
+  .enable-bootstrap-style .bootstrap-datepicker-widget {
+    width: 100%;
+  }
+  .enable-bootstrap-style .bootstrap-datepicker-widget.dropdown-menu {
+    width: 100%;
+  }
+}

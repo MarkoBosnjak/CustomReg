@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config type="fieldparams" name="date">
+	<params addpath="/administrator/components/com_extendedreg/assets/elements">
+		<param name="validations" type="ervalidations" label="COM_EXTENDEDREG_FIELDS_VALIDATIONS"></param>
+	</params>
+</config>

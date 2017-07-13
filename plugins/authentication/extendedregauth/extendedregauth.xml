@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="authentication" method="upgrade">
+	<name>ExtendedReg - Authentication</name>
+	<version>2.10</version>
+	<copyright>(C) 2007 - 2014 jVitals Digital Technologies Inc. All rights reserved.</copyright>
+	<creationDate>5 February 2014</creationDate>
+	<author>jVitals Team</author>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<description>Handles user authentication</description>
+	<files>
+		<filename plugin="extendedregauth">index.html</filename>
+		<filename plugin="extendedregauth">extendedregauth.php</filename>
+	</files>
+</extension>

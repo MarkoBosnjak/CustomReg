@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config type="fieldparams" name="multicheckbox">
+	<params addpath="/administrator/components/com_extendedreg/assets/elements">
+		<param name="separator" type="text" default="&lt;br/&gt;" label="COM_EXTENDEDREG_FIELDS_SEPARATOR"></param>
+		<param name="validations" type="ervalidations" label="COM_EXTENDEDREG_FIELDS_VALIDATIONS"></param>
+	</params>
+</config>

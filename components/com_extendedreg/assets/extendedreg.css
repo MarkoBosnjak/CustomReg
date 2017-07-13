@@ -1,0 +1,738 @@
+/**
+ * @package		ExtendedReg
+ * @version		2.11
+ * @date		2014-03-29
+ * @copyright	Copyright (C) 2007 - 2013 jVitals Digital Technologies Inc. All rights reserved.
+ * @license		http://www.gnu.org/copyleft/gpl.html GNU/GPLv3 or later
+ * @link		http://jvitals.com
+ */
+
+span.required {
+	color: #EB8207;
+	font-size: 1.2em;
+	line-height: 0;
+	margin-left: 5px;
+}
+.clrboth {
+	clear: both;
+}
+.clrlft {
+	clear: left;
+}
+.clrrt {
+	clear: right;
+}
+.fltlft {
+	float: left;
+}
+.fltrt {
+	float: right;
+}
+.fltnone {
+	float: none;
+}
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	opacity: 0.85;
+}
+#tooltip h3, #tooltip div {
+	margin: 0;
+}
+#toolbar-box .header small, #toolbar-box .pagetitle small {
+	color: #ff0000;
+}
+.extreg_forms .form-horizontal ul, .extreg_forms .form-horizontal li {
+	list-style: none;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	background-image:none;
+}
+.extreg_forms .form-horizontal [class*="span"] {
+	display: block;
+	float: left;
+	min-height: 30px;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.extreg_forms .form-horizontal .er-fld-holder {
+	margin: 10px 0;
+	padding: 10px;
+}
+.extreg_forms .form-horizontal .er-form-holder {
+	padding:0 10px;
+}
+.extreg_forms .form-horizontal [class*="span"]:first-child {
+}
+.extreg_forms {
+	width: 100%;
+}
+.extreg_forms form.form-horizontal div.er-form-column, .row-fluid  .extreg_forms form.form-horizontal div.er-form-column {
+	margin: 0 5px 10px;
+	padding: 0 2px;
+}
+.extreg_forms form.form-horizontal fieldset.er-form-step {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+/*form.form-horizontal div.er-form-column, #erLoginForm .er-form-column{
+	float:left;
+	margin: 0;
+}*/
+.extreg_forms form.form-horizontal .er-login-button {
+	float:right;
+	margin: 0 3px 10px;
+	padding: 10px 10px 5px;
+}
+.extreg_forms form.form-horizontal #log-remember-holder {
+	float:left;
+	margin: 0 3px 10px;
+	padding: 10px 10px 5px;
+}
+.extreg_forms form.form-horizontal #log-remember-holder label {
+	float:left;
+	margin: 0 3px;
+	padding: 0 10px;
+}
+.extreg_forms form.form-horizontal #log-remember-holder input {
+	margin: 2px 3px 0 ;
+	padding: 0;
+}
+.extreg_forms #erLoginForm ul, .row-fluid .extreg_forms #erLoginForm ul {
+	margin: 0;
+}
+.extreg_forms #erLoginForm ul li, .row-fluid .extreg_forms #erLoginForm ul li {
+	float: left;
+	clear:none;
+	margin:0;
+	min-height:20px;
+	text-align:center;
+}
+.extreg_forms form.form-horizontal .er-form-row, form.er-form .er-form-row {
+	clear: both;
+	display: table-row;
+	margin: 0 2px 15px;
+	min-height: 0;
+	padding: 10px 10px 5px;
+	-moz-border-radius:0.5em;
+	border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+}
+.form-horizontal .controls-row [class*="span"] + [class*="span"] {
+	margin-left: 2.127659574468085%;
+}
+.input-mini {
+	width: 60px;
+}
+.input-small {
+	width: 90px;
+}
+.input-medium {
+	width: 150px;
+}
+.input-large {
+	width: 210px;
+}
+.input-xlarge {
+	width: 270px;
+}
+.input-xxlarge {
+	width: 530px;
+}
+.extreg_forms .er-form-row .span12 .span12 .span12, .row-fluid .extreg_forms .er-form-row .span12 .span12 .span12 {
+	margin: 0;
+	width: 100%;
+}
+.extreg_forms .span12, .row-fluid .extreg_forms .span12, .extreg_forms input.span12, .row-fluid .extreg_forms input.span12  {
+	width: 100%;
+	*width: 99.94680851063829%;
+	margin:0;
+}
+.extreg_forms .span11, .row-fluid .extreg_forms .span11 {
+	width: 91.48936170212765%;
+	*width: 91.43617021276594%;
+}
+.extreg_forms .span10, .row-fluid .extreg_forms .span10 {
+	width: 82.97872340425532%;
+	*width: 82.92553191489361%;
+}
+.extreg_forms .span9, .row-fluid .extreg_forms .span9 {
+	width: 74.46808510638297%;
+	*width: 74.41489361702126%;
+}
+.extreg_forms .span8, .row-fluid .extreg_forms .span8 {
+	width: 65.95744680851064%;
+	*width: 65.90425531914893%;
+}
+.extreg_forms .span7, .row-fluid .extreg_forms .span7 {
+	width: 57.44680851063829%;
+	*width: 57.39361702127659%;
+}
+.extreg_forms .span6, .row-fluid .extreg_forms .span6 {
+	width: 48.33617021276595%;
+	*width: 48.88297872340425%;
+}
+.extreg_forms .span5, .row-fluid .extreg_forms .span5 {
+	width: 40.42553191489362%;
+	*width: 40.37234042553192%;
+}
+.extreg_forms .span4, .row-fluid .extreg_forms .span4 {
+	width: 31.914893617021278%;
+	*width: 31.861702127659576%;
+}
+.extreg_forms .span3, .row-fluid .extreg_forms .span3 {
+	width: 23.404255319148934%;
+	*width: 23.351063829787233%;
+}
+.extreg_forms .span2, .row-fluid .extreg_forms .span2 {
+	width: 14.893617021276595%;
+	*width: 14.840425531914894%;
+}
+.extreg_forms .span1, .row-fluid .extreg_forms .span1 {
+	width: 6.382978723404255%;
+	*width: 6.329787234042553%;
+}
+/*Fields*/
+ .extreg_forms form.form-horizontal div.control-group:after {
+	clear:both;
+}
+.control-group {
+	margin-bottom: 9px;
+}
+legend + .control-group {
+	margin-top: 18px;
+	-webkit-margin-top-collapse: separate;
+}
+.form-horizontal .control-group {
+	margin-bottom: 18px;
+	*zoom: 1;
+}
+.extreg_forms .form-horizontal .control-group:before, .extreg_forms .form-horizontal .control-group:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.extreg_forms .form-horizontal .control-group:after {
+	clear: both;
+}
+.extreg_forms .form-horizontal .control-label {
+	float: left;
+	line-height: normal;
+	width: 140px;
+	padding: 0;
+	margin:0;
+	text-align: right;
+}
+.extreg_forms .form-horizontal .controls {
+	*display: inline-block;
+	*padding-left: 20px;
+	margin-left: 150px;
+	*margin-left: 0;
+}
+.extreg_forms .form-horizontal #er-captcha-holder .controls {
+	margin: 0 10px;
+	text-align: center;
+	float:none;
+}
+.extreg_forms .form-horizontal .controls:first-child {
+	*padding-left: 160px;
+}
+.extreg_forms .form-horizontal .help-block {
+	clear: both;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.extreg_forms .form-horizontal .form-actions {
+	padding-left: 160px;
+	}
+#erLoginForm .span12 {
+	width: 99%;
+}
+.extreg_forms #erLoginForm .er-form-column, .row-fluid .extreg_forms #erLoginForm .er-form-column {
+	margin: 0;
+	padding: 0 2px;
+}
+.extreg_forms #erLoginForm  .er-fld-holder {
+	margin: 0 5px;
+	padding: 0;
+}
+.ui-dialog-content #erLoginForm .er-form-column {
+	clear: both;
+	margin: 0 0 10px;
+	padding:0;
+}
+#erLoginForm #log-remember-holder {
+	clear: both;
+	margin: 10px 0 0;
+	padding: 0;
+}
+#erLoginForm #log-remember-holder label {
+	float: left;
+	padding: 0 10px;
+}
+#erLoginForm #log-remember-holder input {
+	float: left;
+}
+.extreg_forms #erLoginForm  .er-form-button {
+	margin-top: 0;
+	width: auto;
+	padding: 4px 14px;
+}
+.extreg_forms #erLoginForm  .er-login-button {
+	margin: 10px 0;
+	width: auto;
+	padding: 0 20px 0 0;
+}
+#erLoginForm .er-form-holder {
+	padding: 10px;
+}
+#erLoginForm .er-fld-holder label {
+	display: block;
+	margin-bottom: 5px;
+}
+#erLoginForm .er-fld-holder input{
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px:
+	-webkit-border-radius: 3px 3px 3px 3px;
+	display: inline-block;
+	font-size: 13px;
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 0;
+	padding: 4px 6px;
+}
+.er-fld-holder input {
+}
+#erLoginForm .er-fld-holder input[type="file"], #erLoginForm .er-fld-holder input[type="image"], #erLoginForm .er-fld-holder input[type="submit"], #erLoginForm .er-fld-holder input[type="reset"], #erLoginForm .er-fld-holder input[type="button"], #erLoginForm .er-fld-holder input[type="radio"], #erLoginForm .er-fld-holder input[type="checkbox"] {
+	width: auto;
+}
+.er-form .er-form-button {
+	width: auto;
+	margin-top:10px;
+}
+
+/*To Right*/
+.extreg_forms .form-align-right .er-fld-holder {
+	margin: 5px;
+}
+.extreg_forms .form-align-right .control-group:after {
+	clear: both;
+}
+.extreg_forms .form-align-right .control-label {
+	float: left;
+	padding-top: 5px;
+	text-align: right;
+	width: 140px;
+}
+.extreg_forms .form-align-right .controls {
+	margin-left: 150px;
+	text-align: right;
+}
+.extreg_forms .form-align-right .controls input{
+	margin-left: 0;
+	float: right;
+}
+.extreg_forms .form-align-right .controls.inputbox{
+	margin-left: 0;
+	float: none;
+}
+
+.extreg_forms .form-align-right .help-block {
+	clear: both;
+	float: right;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+/*To Left*/
+
+.extreg_forms .form-align-left .control-label {
+	float: left;
+	padding-top: 5px;
+	text-align: left;
+	width: 140px;
+}
+.extreg_forms .form-align-left .controls {
+	margin-left: 150px;
+	text-align: left;
+	padding-top: 0;
+}
+.extreg_forms .form-align-left .controls input{
+
+}
+
+/*To Margins*/
+
+ .extreg_forms .form-align-margin .er-fld-holder {
+	margin: 5px;
+}
+.extreg_forms .form-align-margin .control-group:after {
+	clear: both;
+}
+.extreg_forms .form-align-margin .control-label {
+	float: left;
+	line-height: normal;
+	width: 140px;
+	padding-top: 5px;
+	text-align: left;
+}
+.extreg_forms .form-align-margin .controls {
+	margin-left: 150px;
+	text-align:right;
+}
+.extreg_forms .form-align-margin .controls input{
+	margin-left: 0;
+	float: none;
+}
+
+//*To Center*/
+
+.extreg_forms .form-align-center .control-group:after {
+	clear: both;
+}
+.extreg_forms .form-align-center .control-label {
+	float: left;
+	line-height:30px;
+	width: 140px;
+	padding-top: 0;
+	text-align: right;
+}
+.extreg_forms .form-align-center .controls {
+	*display: inline-block;
+	*padding-left: 20px;
+	margin-left: 150px;
+	*margin-left: 0;
+}
+
+/*All Left*/
+
+.extreg_forms .form-align-all-left .control-label {
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 0;
+	text-align: left;
+	width: 98%;
+	float:none;
+}
+.extreg_forms .form-align-all-left .er-fld-checkbox .control-label {
+	width: auto;
+	max-width: 90%;
+	padding: 4px 0 0;
+	float:left;
+}
+.extreg_forms .form-align-all-left .controls {
+	margin-left: 0;
+	text-align: left;
+}
+.extreg_forms .form-align-all-left .er-fld-checkbox .controls {
+	float: left;
+	height: inherit;
+	width: 20px;
+}
+.extreg_forms .form-align-all-left .controls input{
+}
+form.form-horizontal input[type="text"], form.form-horizontal input[type="password"] {
+	min-height: 20px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.extreg_forms .form-align-all-left .er-fld-checkbox .controls input[type="radio"], 
+.extreg_forms .form-align-all-left .er-fld-checkbox .controls input[type="checkbox"]  {
+	height:18px;
+	line-height: normal;
+	margin: 0 5px 2px 15px;
+	vertical-align: middle;
+}
+form.form-horizontal select, form.form-horizontal select, input[type="file"]  {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	width:auto;
+	min-height: 32px;
+	line-height:30px;
+	padding: 5px 3px 3px 6px;
+	vertical-align: top;
+}
+
+/*All Right*/
+
+.extreg_forms .form-align-all-right .control-label {
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 0;
+	text-align: right;
+	width: 98%;
+}
+.extreg_forms .form-align-all-right .controls {
+	clear:both;
+	margin-left: 0;
+	text-align: right;
+}
+.extreg_forms .form-align-all-right .controls input{
+	margin-left: 0;
+	float: right;
+}
+.extreg_forms .form-align-all-right #er-captcha-holder .controls input{
+	margin-left: 0;
+	float: none;
+}
+
+.extreg_forms .form-align-all-right .help-block {
+	clear: both;
+	float: right;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+/*All Center*/
+
+.extreg_forms .form-align-all-center .control-label {
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 0;
+	text-align: center;
+	width: 98%;
+}
+.extreg_forms .form-align-all-center .controls {
+	margin-left: 0;
+	clear:both;
+	text-align: center;
+
+}
+.extreg_forms .form-align-all-center .controls input{
+	clear: both;
+	display: block;
+	float: none;
+	margin: 0 auto;
+
+}
+.extreg_forms .form-align-all-center .controls input[type="checkbox"] {
+	margin: 0 auto;
+}
+.extreg_forms .form-align-all-center .help-block {
+	clear: both;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.extreg_forms #er-overage-holder .controls, .extreg_forms #er-acceptedterms-holder .controls {
+	margin: 0 auto;
+	width: 100%;
+}
+.extreg_forms #er-overage-holder .controls .checkbox, .extreg_forms #er-acceptedterms-holder .controls .checkbox {
+	display: block;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-left: 18px;
+	min-height: 18px;
+}
+.extreg_forms #er-overage-holder .controls input, .extreg_forms #er-acceptedterms-holder .controls input {
+	float: none;
+	display: inline;
+	min-height: 8px;
+}
+.extreg_forms .er-fld-calendar .controls input {
+	margin-bottom: 0;
+	margin-right:10px;
+	width:85%;
+}
+.extreg_forms .form-horizontal .er-fld-no-label .controls {
+	margin-left: 0;
+}
+form.form-horizontal input[type="radio"], 
+form.form-horizontal input[type="checkbox"], form.form-horizontal .controls input[type="radio"], 
+form.form-horizontal .controls input[type="checkbox"]  {
+	height:18px;
+	line-height: normal;
+	margin: 0 5px 2px 15px;
+	vertical-align: middle;
+}
+.extreg_forms .form-horizontal .controls input{
+	font-size: 14px;
+	min-height: 30px;
+	padding: 0 5px;
+}
+.extreg_forms .form-horizontal .er-fld-multicheckbox .controls input, .extreg_forms .form-horizontal .er-fld-radio .controls input{
+	display: inline-block;
+	min-height: 10px;
+	padding: 0 5px;
+	float:none;
+}
+.extreg_forms .er-fld-date .controls input{
+	float: none;
+	text-align:center;
+	width:auto;
+	display: inline-block;
+}
+form.form-horizontal span.er-error {
+	display: block;
+}
+form.form-horizontal div#password-info.er-strength-info {
+	font-size: 0.9em;
+	padding: 5px;
+}
+form.form-horizontal button, 
+form.form-horizontal input[type="button"], 
+form.form-horizontal input[type="submit"], 
+form.form-horizontal input[type="reset"] {
+	padding: 4px 14px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	font-weight: bold;
+}
+form.form-horizontal input[type="text"]:focus, 
+form.form-horizontal input[type="password"]:focus {
+}
+.extreg_forms  .form-horizontal .control-group {
+	-moz-border-radius:0.3em;
+	border-radius:0.3em;
+	-webkit-border-radius:0.3em;
+}
+
+
+.generate-pass-holder a.btn-primary {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    display: inline-block;
+	margin-top: 3px;
+    padding: 5px 10px;
+	text-decoration: none;
+	background-color: #006dcc;
+	background-image: -moz-linear-gradient(top,#08c,#0044cc);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0044cc));
+	background-image: -webkit-linear-gradient(top,#08c,#0044cc);
+	background-image: -o-linear-gradient(top,#08c,#0044cc);
+	background-image: linear-gradient(to bottom,#08c,#0044cc);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0043cc', GradientType=0);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0044cc #0044cc #002a80;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+#er-password-holder a.btn-primary:hover, span a.generate-pass-new:hover {
+	color: #fff;
+	background: #0044cc;
+	*background-color: #003bb3;
+}
+span a.generate-pass-new {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    display: inline-block;
+	float:left;
+	margin-top: 5px;
+	margin-left: 15px;
+    padding: 5px 10px;
+	text-decoration: none;
+	background-color: #006dcc;
+	background-image: -moz-linear-gradient(top,#08c,#0044cc);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0044cc));
+	background-image: -webkit-linear-gradient(top,#08c,#0044cc);
+	background-image: -o-linear-gradient(top,#08c,#0044cc);
+	background-image: linear-gradient(to bottom,#08c,#0044cc);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0043cc', GradientType=0);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0044cc #0044cc #002a80;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+span a.generate-pass-use {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    display: inline-block;
+	margin-top: 5px;
+	margin-right: 15px;
+    padding: 5px 10px;
+	text-decoration: none;
+	border: 1px solid #117A11;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	float:right;
+	background-color: #26cc26;
+	background-image: -moz-linear-gradient(top, #26cc26 0%, #169f16 55%, #128012 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#26cc26), color-stop(55%,#169f16), color-stop(100%,#128012));
+	background-image: -webkit-linear-gradient(top, #26cc26 0%,#169f16 55%,#128012 100%);
+	background-image: -o-linear-gradient(top, #26cc26 0%,#169f16 55%,#128012 100%);
+	background-image: -ms-linear-gradient(top, #26cc26 0%,#169f16 55%,#128012 100%);
+	background-image: linear-gradient(to bottom, #26cc26 0%,#169f16 55%,#128012 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26cc26', endColorstr='#128012',GradientType=0 );
+}
+span a.generate-pass-use:hover {
+	text-decoration: none;
+	border: 1px solid #117A11;
+
+background: #128012;
+background: -moz-linear-gradient(top,  #128012 0%, #21b221 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#128012), color-stop(100%,#21b221));
+background: -webkit-linear-gradient(top,  #128012 0%,#21b221 100%);
+background: -o-linear-gradient(top,  #128012 0%,#21b221 100%);
+background: -ms-linear-gradient(top,  #128012 0%,#21b221 100%);
+background: linear-gradient(to bottom,  #128012 0%,#21b221 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#128012', endColorstr='#21b221',GradientType=0 );
+}
+span td, span tr {
+	border:0;
+	-moz-border-radius:0.3em;
+	border-radius:0.3em;
+	-webkit-border-radius:0.3em;
+}
+span table {
+	border:0;
+	width:100%;
+}
+span p {
+	border:0;
+	width:90%;
+	display: block;
+	margin: 5px auto;
+	text-align: left;
+	font-size: 15px;
+	line-height: normal;
+}
+span input.generate-pass-input{
+	background-color: #fcfcfc;
+	border-style: solid; border-width:1px; border-color:  #ccc;
+	display:block;
+	width: 75%;
+	margin: 5px auto;
+	padding: 5px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.generate-pass-input:focus{
+	-moz-box-shadow: 0 0 4px #ccc;
+	-webkit-box-shadow: 0 0 4px #ccc;
+	box-shadow: 0 0 4px #ccc;
+	border-style: solid; border-width:1px; border-color:  #ccc;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EXTENDEDREG_VIEW_LOGIN_AND_REGISTER">
+		<message>COM_EXTENDEDREG_VIEW_LOGIN_AND_REGISTER_DESC</message>
+	</layout>
+	<state>
+		<name>COM_EXTENDEDREG_VIEW_LOGIN_AND_REGISTER</name>
+		<description>COM_EXTENDEDREG_VIEW_LOGIN_AND_REGISTER_DESC</description>
+		<url addpath="/administrator/components/com_extendedreg/assets/elements">
+			<param name="fid" type="erfomrslist" default="0" label="COM_EXTENDEDREG_VIEW_SELECT_FORM" />
+		</url>
+		<!-- Add fields to the request variables for the layout. -->
+		<fields name="request">
+			<fieldset name="request"
+				addfieldpath="/administrator/components/com_extendedreg/assets/elements">
+				<field name="fid" type="erfomrslist"
+					label="COM_EXTENDEDREG_VIEW_SELECT_FORM"
+					required="false"
+					description="COM_EXTENDEDREG_VIEW_SELECT_FORM"
+				/>
+			</fieldset>
+		</fields>
+		<params>
+		</params>
+	</state>
+</metadata>

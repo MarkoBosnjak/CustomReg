@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config type="fieldparams" name="editora">
+	<params addpath="/administrator/components/com_extendedreg/assets/elements">
+		<param name="editor_type" type="list" default="0" label="COM_EXTENDEDREG_OPT_USE_EDITOR">
+			<option value="0">COM_EXTENDEDREG_OPT_USE_EDITOR_JOOMLA</option>
+			<option value="1">COM_EXTENDEDREG_NONE</option>
+			<option value="2">COM_EXTENDEDREG_OPT_USE_EDITOR_NICEDIT</option>
+		</param>
+		<param name="validations" type="ervalidations" label="COM_EXTENDEDREG_FIELDS_VALIDATIONS"></param>
+	</params>
+</config>

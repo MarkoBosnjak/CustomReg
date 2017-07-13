@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user" method="upgrade">
+	<name>ExtendedReg - User</name>
+	<version>2.11</version>
+	<copyright>(C) 2007 - 2014 jVitals Digital Technologies Inc. All rights reserved.</copyright>
+	<creationDate>29 March 2014</creationDate>
+	<author>jVitals Team</author>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<description>To be used instead Joomla!'s default User synchronisation. Be sure to enable the plugin after installation</description>
+	<files>
+		<filename plugin="extendedreguser">index.html</filename>
+		<filename plugin="extendedreguser">extendedreguser.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="autoregister" type="radio" class="btn-group" default="1" label="Auto-create Users">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="mail_to_user" type="radio" class="btn-group" default="0" label="Notification Mail to User">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

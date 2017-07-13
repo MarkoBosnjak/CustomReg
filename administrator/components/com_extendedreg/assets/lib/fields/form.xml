@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="custom_fields">
+		<fieldset name="settings" label="COM_USERS_SETTINGS_FIELDSET_LABEL">
+			<field name="timezone" type="timezone" label="COM_USERS_USER_FIELD_TIMEZONE_LABEL" description="COM_USERS_USER_FIELD_TIMEZONE_DESC" class="#class#">
+				<option value="">JOPTION_USE_DEFAULT</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>

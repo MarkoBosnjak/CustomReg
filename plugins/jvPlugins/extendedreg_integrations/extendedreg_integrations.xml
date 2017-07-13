@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="jvPlugins" method="upgrade">
+	<name>ExtendedReg Integrations</name>
+	<version>2.01</version>
+	<copyright>(C) All rights reserved. 2007 - 2013 jVitals.com</copyright>
+	<creationDate>November 2013</creationDate>
+	<author>jVitals Team</author>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<description>This plugin will run integration functions when user registers or edit his profile</description>
+	<files>
+		<filename plugin="extendedreg_integrations">extendedreg_integrations.php</filename>
+	</files>
+</extension>

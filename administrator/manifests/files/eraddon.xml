@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension>
+<extension type="file" version="2.5" method="upgrade">
+	<name>ExtendedReg Addon Adapter</name>
+	<version>1.0</version>
+	<versionname></versionname>
+	<creationDate>2013-09-11</creationDate>
+	<author>Jvitals Team</author>
+	<authorEmail>support@jvitals.com</authorEmail>
+	<authorUrl>http://jvitals.com</authorUrl>
+	<copyright>(C) 2008 - 2013 Jvitals Team. All rights reserved.</copyright>
+	<license>GNU/GPLv3 or later</license>
+	<description>Install adapter for ExtendedReg Addons.</description>
+	<fileset>
+		<files target="libraries/joomla/installer/adapters">
+			<filename>eraddon.php</filename>
+			<filename>index.html</filename>
+		</files>
+		<files target="libraries/cms/installer/adapter">
+			<filename>eraddon.php</filename>
+			<filename>index.html</filename>
+		</files>
+	</fileset>
+	<languages>
+		<language tag="en-GB">en-GB.files_adapter_eraddon.ini</language>
+	</languages>
+</extension>

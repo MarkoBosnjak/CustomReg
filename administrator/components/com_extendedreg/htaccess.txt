@@ -1,0 +1,17 @@
+##
+# This file is part of the ExtendedReg distribution. 
+# Detailed copyright and licensing information can be found
+# in the gpl-3.0.txt file which should be included in the distribution.
+# 
+# @version		$Id: 1.0.069 2012-03-05 rammstein4o $
+# @copyright		2007 - 2013 jVitals
+# @license		GPLv3 Open Source
+# @link			http://jvitals.com
+# @since			File available since initial release
+##
+
+# For all those that have htaccess auth for aministrator folder
+AuthType none
+Order allow,deny
+Allow from all
+Satisfy any

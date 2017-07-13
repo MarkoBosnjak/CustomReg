@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config type="fieldparams" name="text">
+	<params addpath="/administrator/components/com_extendedreg/assets/elements">
+		<param name="confirm_title" type="text" label="COM_EXTENDEDREG_FIELDS_CONFIRMFIELD_TITLE"></param>
+		<param name="confirm_description" type="textarea" rows="4" cols="30" label="COM_EXTENDEDREG_FIELDS_CONFIRMFIELD_DESCRIPTION"></param>
+		<param name="input_size" type="list" default="span12" label="COM_EXTENDEDREG_FIELDS_INPUT_SIZE">
+			<option value="input-mini">mini</option>
+			<option value="input-small">small</option>
+			<option value="input-medium">medium</option>
+			<option value="input-large">large</option>
+			<option value="input-xlarge">xlarge</option>
+			<option value="input-xxlarge">xxlarge</option>
+			<option value="span1">1</option>
+			<option value="span2">2</option>
+			<option value="span3">3</option>
+			<option value="span4">4</option>
+			<option value="span5">5</option>
+			<option value="span6">6</option>
+			<option value="span7">7</option>
+			<option value="span8">8</option>
+			<option value="span9">9</option>
+			<option value="span10">10</option>
+			<option value="span11">11</option>
+			<option value="span12">12</option>
+		</param>
+		<param name="validations" type="ervalidations" label="COM_EXTENDEDREG_FIELDS_VALIDATIONS"></param>
+	</params>
+</config>

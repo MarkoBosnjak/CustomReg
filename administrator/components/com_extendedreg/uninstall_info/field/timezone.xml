@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="eraddon" version="2.5" method="upgrade">
+	<name>Timezone Field</name>
+	<filename>timezone</filename>
+	<type>field</type>
+	<author>jVitals Team</author>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<copyright>(C) All rights reserved. 2007 - 2013 jVitals.com</copyright>
+	<license>GNU /GPLv3</license>
+	<version>1.01</version>
+	<description></description>
+	<published>1</published>
+	<administration>
+		<files>
+			<filename src="">assets/lib/fields/timezone.php</filename>
+			<filename src="">assets/lib/fields/timezone.xml</filename>
+			<filename src="">assets/lib/fields/form.xml</filename>
+		</files>
+	</administration>
+</extension>

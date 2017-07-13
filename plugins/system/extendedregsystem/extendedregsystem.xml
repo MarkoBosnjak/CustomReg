@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>ExtendedReg - System</name>
+	<version>1.01</version>
+	<copyright>(C) All rights reserved. 2007 - 2013 jVitals.com</copyright>
+	<creationDate>November 2013</creationDate>
+	<author>jVitals Team</author>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<description>This plugin will take care for important tasks that help ExtendedReg</description>
+	<files>
+		<filename plugin="extendedregsystem">index.html</filename>
+		<filename plugin="extendedregsystem">extendedregsystem.php</filename>
+	</files>
+</extension>

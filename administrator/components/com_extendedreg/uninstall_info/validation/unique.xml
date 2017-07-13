@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="eraddon" version="2.5" method="upgrade">
+	<name>Check for unique</name>
+	<filename>unique</filename>
+	<type>validation</type>
+	<author>jVitals Team</author>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<copyright>(C) All rights reserved. 2007 - 2013 jVitals.com</copyright>
+	<license>GNU /GPLv3</license>
+	<version>2.02</version>
+	<description></description>
+	<published>1</published>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.com_extendedreg_validation_unique.ini</language>
+	</languages>
+	<administration>
+		<files>
+			<filename src="">assets/lib/validations/unique.php</filename>
+		</files>
+		<languages folder="language">
+			<language tag="en-GB">en-GB.com_extendedreg_validation_unique.ini</language>
+		</languages>
+	</administration>
+</extension>

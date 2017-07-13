@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="eraddon" version="2.5" method="upgrade">
+	<name>Rich Text Editor</name>
+	<filename>editorta</filename>
+	<type>field</type>
+	<author>jVitals Team</author>
+	<authorEmail>admin@jvitals.com</authorEmail>
+	<authorUrl>http://www.jvitals.com</authorUrl>
+	<copyright>(C) All rights reserved. 2007 - 2013 jVitals.com</copyright>
+	<license>GNU /GPLv3</license>
+	<version>2.11</version>
+	<description></description>
+	<published>1</published>
+	<administration>
+		<files>
+			<filename src="">assets/lib/fields/editorta.php</filename>
+			<filename src="">assets/lib/fields/editorta.xml</filename>
+		</files>
+	</administration>
+</extension>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension>
+<extension type="package" version="2.5" method="upgrade">
+  <name>ExtendedReg Package</name>
+  <packagename>extendedreg</packagename>
+  <version>2.11</version>
+  <versionname>ExtendedReg</versionname>
+  <creationDate>29 March 2014</creationDate>
+  <author>Jvitals Team</author>
+  <authorEmail>support@jvitals.com</authorEmail>
+  <authorUrl>http://www.jvitals.com</authorUrl>
+  <copyright>(C) 2007 - 2014 jVitals Digital Technologies Inc. All rights reserved.</copyright>
+  <license>GNU/GPLv3 or later</license>
+  <description>ExtendedReg Package</description>
+  <scriptfile>install.php</scriptfile>
+  <files>
+    <filename type="plugin" id="jvitals" group="system">plg_system_jvitals-1.0.zip</filename>
+    <filename type="library" id="jvitals">lib_jvitals-1.0.zip</filename>
+    <filename type="file" id="eraddon">adapter_eraddon-1.0.zip</filename>
+    <filename type="component" id="com_extendedreg">com_extendedreg-2.11.zip</filename>
+    <filename type="eraddon" id="map">fld-map-1.01.zip</filename>
+    <filename type="eraddon" id="timezone">fld-timezone-1.01.zip</filename>
+    <filename type="eraddon" id="radio">fld-radio-2.03.zip</filename>
+    <filename type="eraddon" id="text">fld-text-2.02.zip</filename>
+    <filename type="eraddon" id="countrylist">fld-countrylist-2.03.zip</filename>
+    <filename type="eraddon" id="password">fld-password-2.02.zip</filename>
+    <filename type="eraddon" id="multiselect">fld-multiselect-2.04.zip</filename>
+    <filename type="eraddon" id="information">fld-information-2.03.zip</filename>
+    <filename type="eraddon" id="multicheckbox">fld-multicheckbox-2.03.zip</filename>
+    <filename type="eraddon" id="integer">fld-integer-2.02.zip</filename>
+    <filename type="eraddon" id="textarea">fld-textarea-2.11.zip</filename>
+    <filename type="eraddon" id="confirmfield">fld-confirmfield-2.02.zip</filename>
+    <filename type="eraddon" id="select">fld-select-2.03.zip</filename>
+    <filename type="eraddon" id="date">fld-date-2.02.zip</filename>
+    <filename type="eraddon" id="checkbox">fld-checkbox-2.02.zip</filename>
+    <filename type="eraddon" id="editorta">fld-editorta-2.11.zip</filename>
+    <filename type="eraddon" id="simple">captcha-simple-2.11.zip</filename>
+    <filename type="eraddon" id="mathguard">captcha-mathguard-2.02.zip</filename>
+    <filename type="eraddon" id="joomla">captcha-joomla-2.02.zip</filename>
+    <filename type="eraddon" id="minlength">val-minlength-2.02.zip</filename>
+    <filename type="eraddon" id="coordinates">val-coordinates-2.11.zip</filename>
+    <filename type="eraddon" id="allowedlist">val-allowedlist-2.02.zip</filename>
+    <filename type="eraddon" id="unique">val-unique-2.02.zip</filename>
+    <filename type="eraddon" id="email">val-email-2.02.zip</filename>
+    <filename type="eraddon" id="maxlength">val-maxlength-2.02.zip</filename>
+    <filename type="eraddon" id="regexp">val-regexp-2.11.zip</filename>
+    <filename type="plugin" id="extendedreguser" group="user">plg_extendedreguser-2.11.zip</filename>
+    <filename type="plugin" id="extendedregsystem" group="system">plg_extendedregsystem-1.01.zip</filename>
+    <filename type="plugin" id="extendedreg_integrations" group="jvPlugins">plg_extendedreg_integrations-2.01.zip</filename>
+    <filename type="plugin" id="extendedregauth" group="authentication">plg_extendedregauth-2.10.zip</filename>
+  </files>
+</extension>

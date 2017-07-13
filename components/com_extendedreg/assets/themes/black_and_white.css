@@ -1,0 +1,200 @@
+/**
+ * @package		ExtendedReg
+ * @version		2.11
+ * @date		2014-03-29
+ * @copyright	Copyright (C) 2007 - 2013 jVitals Digital Technologies Inc. All rights reserved.
+ * @license		http://www.gnu.org/copyleft/gpl.html GNU/GPLv3 or later
+ * @link		http://jvitals.com
+ */
+ 
+form.form-horizontal .er-form-column,
+form.form-horizontal .er-form-step, form.form-horizontal .er-form-holder {
+	color: #D0D0D0;
+	font-weight: bold;
+}
+.extreg_forms .form-horizontal .help-block {
+	color: #FCFCFC;
+}
+.extreg_forms .invalid {
+	color: #F85454;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #202020;
+}
+form.form-horizontal .er-form-holder h5 {
+	color: #202020;
+	font-weight: bold;
+}
+form.form-horizontal .er-form-column a,
+form.form-horizontal .er-form-step a, form.form-horizontal .er-form-holder a {
+	color: #73E3E9;
+}
+form.form-horizontal .er-form-holder .er-fld-editorta a, form.form-horizontal .er-form-holder .er-fld-editorta a:hover {
+	color: #202020;
+}
+form.form-horizontal .er-form-column a:hover,
+form.form-horizontal .er-form-step a:hover, form.form-horizontal .er-form-holder a:hover {
+	color: #7FCCE4;
+}
+form.form-horizontal .er-form-row, form.er-form .er-form-row {
+	background-color: rgba(76, 76, 76, 0.8);
+	background-image: -moz-linear-gradient(top,  rgba(30,31,30,0.5) 0%, rgba(70,71,70,0.6) 70%, rgba(100,101,100,0.7) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,31,30,0.5)), color-stop(70%,rgba(70,71,70,0.6)), color-stop(100%,rgba(100,101,100,0.7)));
+	background-image: -webkit-linear-gradient(top,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	background-image: -o-linear-gradient(top,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	background-image: -ms-linear-gradient(top,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	background-image: linear-gradient(to bottom,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#801e1f1e', endColorstr='#b3646564',GradientType=0 );
+	border-style: solid; border-width:1px; border-color: rgba(80, 80, 80, 0.1) rgba(50, 50, 50, 0.4) rgba(50, 50, 50, 0.4);
+	 box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+	 -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+	 -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+ }
+
+.extreg_forms  .form-horizontal .control-group {
+	background-color: rgba(130, 130, 130, 0.5);
+	background-image: -moz-linear-gradient(top,  rgba(25,25,25,0.2) 0%, rgba(22,21,22,0.3) 70%, rgba(18,18,18,0.3) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(25,25,25,0.2)), color-stop(70%,rgba(22,21,22,0.3)), color-stop(100%,rgba(18,18,18,0.3)));
+	background-image: -webkit-linear-gradient(top,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	background-image: -o-linear-gradient(top,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	background-image: -ms-linear-gradient(top,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	background-image: linear-gradient(to bottom,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33191919', endColorstr='#4d121212',GradientType=0 );
+
+	 background-repeat: no-repeat;
+	 border:1px solid rgba(50, 55, 50, 0.1) rgba(50, 55, 50, 0.4) rgba(0, 10, 0, 0.4) ;
+	 box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2) ;
+	 -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2) ;
+	 -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.2) ;
+	 text-shadow: 0 0 3px rgba(200, 200, 200, 0.5) ;
+
+}
+
+.extreg_forms .form-horizontal .er-fld-information  {
+	background-color: rgb(220, 250, 220);
+	border-style: solid; border-width:1px; border-color: rgba(20, 120, 20, 0.2) rgba(20, 120, 20, 0.4) rgba(10, 80, 10, 0.5)
+}
+.extreg_forms .form-horizontal .er-fld-information .controls {
+    color: #202020;
+}
+form.form-horizontal div#password-info .er-strength-info {
+	background-color: #333;
+	border-style: solid; border-width:1px; border-color:  #fff;
+}
+form.form-horizontal input[type="text"], 
+form.form-horizontal input[type="password"] {
+	background:url("images/input_bg_h.png") repeat-x scroll left top #E7E7E7;
+}
+form.form-horizontal input[type="text"]:focus, 
+form.form-horizontal input[type="password"]:focus {
+	-moz-box-shadow: 0 0 8px #777;
+	-webkit-box-shadow: 0 0 8px #777;
+	box-shadow: 0 0 8px #777;
+	border-style: solid; border-width:1px; border-color:  #777;
+}
+form.form-horizontal button, 
+form.form-horizontal input[type="button"], 
+form.form-horizontal input[type="submit"], 
+form.form-horizontal input[type="reset"] {
+	background-color: rgba(76, 76, 76, 0.8);
+	background-image: -moz-linear-gradient(top,  rgba(30,31,30,0.5) 0%, rgba(70,71,70,0.6) 70%, rgba(100,101,100,0.7) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,31,30,0.5)), color-stop(70%,rgba(70,71,70,0.6)), color-stop(100%,rgba(100,101,100,0.7)));
+	background-image: -webkit-linear-gradient(top,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	background-image: -o-linear-gradient(top,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	background-image: -ms-linear-gradient(top,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	background-image: linear-gradient(to bottom,  rgba(30,31,30,0.5) 0%,rgba(70,71,70,0.6) 70%,rgba(100,101,100,0.7) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#801e1f1e', endColorstr='#b3646564',GradientType=0 );
+	 box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+	 -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+	 -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	border-style: solid; border-width:1px; border-color: rgba(10, 15, 15, 0.7) rgba(10, 15, 15, 0.8) rgba(0, 10, 25, 0.7) ;
+	box-shadow: 0 2px 3px rgba(110, 110, 111, 0.2), 0 0 1px rgba(110, 110, 111, 0.2) ;
+	-moz-box-shadow: 0 2px 3px rgba(110, 110, 111, 0.2), 0 0 1px rgba(110, 110, 111, 0.2)  ;
+	-webkit-box-shadow: 0 2px 3px rgba(110, 110, 111, 0.2), 0 0 1px rgba(110, 110, 111, 0.2) ;
+	text-shadow: 0 0 3px rgba(200, 200, 200, 0.5) ;
+	color:#EAEAEA;
+	text-shadow:1px 1px 1px rgba(25, 25, 25, 0.6);
+}
+form.form-horizontal button:hover, 
+form.form-horizontal input[type="button"]:hover, 
+form.form-horizontal input[type="submit"]:hover, 
+form.form-horizontal input[type="reset"]:hover {
+
+	background-color: rgba(10, 10, 10, 0.7);
+	background-image: -moz-linear-gradient(top,  rgba(25,25,25,0.2) 0%, rgba(22,21,22,0.3) 70%, rgba(18,18,18,0.3) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(25,25,25,0.2)), color-stop(70%,rgba(22,21,22,0.3)), color-stop(100%,rgba(18,18,18,0.3)));
+	background-image: -webkit-linear-gradient(top,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	background-image: -o-linear-gradient(top,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	background-image: -ms-linear-gradient(top,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	background-image: linear-gradient(to bottom,  rgba(25,25,25,0.2) 0%,rgba(22,21,22,0.3) 70%,rgba(18,18,18,0.3) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33191919', endColorstr='#4d121212',GradientType=0 );
+	color: #a5a5a5;
+	background-position: 0 0 ;
+}
+form.form-horizontal button:active, 
+form.form-horizontal input[type="button"]:active, 
+form.form-horizontal input[type="submit"]:active, 
+form.form-horizontal input[type="reset"]:active {
+	background:url("bg-submit_active.png") repeat-x scroll left top #D5D5D5;
+	text-shadow:1px 1px 1px rgba(255, 255, 255, 0.3);
+}
+/* Temporary tooltip beautify */
+
+.tip-wrap {
+	text-align: left !important;
+}
+.tip-title {
+	font-weight: bold
+}
+.extreg_forms .form-horizontal .controls input{
+	background-color: #fcfcfc;
+	border-style: solid; border-width:1px; border-color:  #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+.extreg_forms .form-horizontal .controls .invalid{
+	border-style: solid; border-width:1px; border-color:  rgba(233, 105, 105, 0.75);
+	-webkit-box-shadow: 0 1px 8px rgba(233, 105, 105, 0.8);
+	-moz-box-shadow: 0 1px 8px rgba(233, 105, 105, 0.8);
+	box-shadow: 0 1px 8px rgba(233, 105, 105, 0.8);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+	background: rgb(255,244,244);
+	background: -moz-linear-gradient(top,  rgba(255,244,244,0.9) 0%, rgba(244,235,235,0.9) 50%, rgba(247,197,197,0.6) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,244,244,0.9)), color-stop(50%,rgba(244,235,235,0.9)), color-stop(100%,rgba(247,197,197,0.6)));
+	background: -webkit-linear-gradient(top,  rgba(255,244,244,0.9) 0%,rgba(244,235,235,0.9) 50%,rgba(247,197,197,0.6) 100%);
+	background: -o-linear-gradient(top,  rgba(255,244,244,0.9) 0%,rgba(244,235,235,0.9) 50%,rgba(247,197,197,0.6) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,244,244,0.9) 0%,rgba(244,235,235,0.9) 50%,rgba(247,197,197,0.6) 100%);
+	background: linear-gradient(to bottom,  rgba(255,244,244,0.9) 0%,rgba(244,235,235,0.9) 50%,rgba(247,197,197,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff4f4', endColorstr='#f7c5c5',GradientType=0 );
+}
+#erLoginForm .er-fld-holder input{
+	color: #555555;
+	background-color: #fff;
+	border-style: solid; border-width:1px; border-color: #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+form.form-horizontal select, form.form-horizontal select, input[type="file"]  {
+	border-style: solid; border-width:1px; border-color: #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}

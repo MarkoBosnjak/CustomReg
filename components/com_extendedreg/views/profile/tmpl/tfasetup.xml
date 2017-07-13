@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EXTENDEDREG_VIEW_PROFILE_TFASETUP">
+		<message>COM_EXTENDEDREG_VIEW_PROFILE_TFASETUP_DESC</message>
+	</layout>
+	<state>
+		<name>COM_EXTENDEDREG_VIEW_PROFILE_TFASETUP</name>
+		<description>COM_EXTENDEDREG_VIEW_PROFILE_TFASETUP_DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

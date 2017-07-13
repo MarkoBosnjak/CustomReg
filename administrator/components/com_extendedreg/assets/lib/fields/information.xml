@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config type="fieldparams" name="information">
+	<params>
+		<param name="contents" type="textarea" default="" cols="30" rows="5" label="COM_EXTENDEDREG_FIELDS_INFORMATION_CONTENTS"></param>
+	</params>
+</config>
