@@ -14,8 +14,8 @@ class JConfig {
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
 	public $user = 'root';
-	public $password = 'root';
-	public $db = 'extendedreg';
+	public $password = '';
+	public $db = 'customreg';
 	public $dbprefix = 'fysw4_';
 	public $live_site = '';
 	public $secret = '3bIMjszFRbMIgs38';
