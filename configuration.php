@@ -15,7 +15,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'customreg';
+	public $db = 'extendedreg';
 	public $dbprefix = 'fysw4_';
 	public $live_site = '';
 	public $secret = '3bIMjszFRbMIgs38';
@@ -31,7 +31,7 @@ class JConfig {
 	public $offset = 'UTC';
 	public $mailonline = '1';
 	public $mailer = 'mail';
-	public $mailfrom = 'markus.bopp@crosstec.org';
+	public $mailfrom = 'marko.bosnjak7@yahoo.com';
 	public $fromname = 'ExtendedReg';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
@@ -54,10 +54,10 @@ class JConfig {
 	public $sef_rewrite = '0';
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
-	public $feed_limit = '10';
+	public $feed_limit = '10'; C:\
 	public $feed_email = 'none';
-	public $log_path = '/Applications/MAMP/htdocs/extendedreg/administrator/logs';
-	public $tmp_path = '/Applications/MAMP/htdocs/extendedreg/tmp';
+	public $log_path = 'C:\xampp\htdocs\ExtendedReg\administrator\logs';
+	public $tmp_path = 'C:\xampp\htdocs\ExtendedReg\tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $shared_session = '0';
