@@ -10,9 +10,7 @@
  
 // no direct access
 defined('_JEXEC') or die('Restricted access');
-
 require_once(JPATH_SITE.'/libraries/jvitals/adapter.php');
-
 class JInstallerEraddon extends JvitalsAdapter {
 	
 	function __construct($parent, $db, $options) {
